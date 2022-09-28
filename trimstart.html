@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>JS trimStart()</H2>
+    <p id="num"></p>
+    <script>
+        let txt1 = "               Hello js          ";
+        let txt2 = txt1.trimStart();
+        document.getElementById("num").innerHTML = "lenght txt1 = " + txt1.length + 
+        "<br> length txt2 = " + txt2.length;
+    </script>
+    <h2>js trimEnd()</h2>
+    <p id="demo"></p>
+    <script>
+    let text1 = "     Hello World                ";
+    let text2 = text1.trimEnd();
+    
+    document.getElementById("demo").innerHTML = "length text1 = " + text1.length +
+    "<br> length text2 = " + text2.length;
+    </script>
+</body>
+</html>
